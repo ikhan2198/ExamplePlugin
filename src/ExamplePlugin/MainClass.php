@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ExamplePlugin;
+namespace ItsMythicalYT/M4/Main;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;

@@ -17,7 +17,6 @@ class MainClass extends PluginBase{
 
 	public function onEnable() : void{
 		$this->getServer()->getPluginManager()->registerEvents(new ExampleListener($this), $this);
-		$this->getScheduler()->scheduleRepeatingTask(new BroadcastTask($this->getServer()), 120);
 		$this->getLogger()->info(TextFormat::DARK_GREEN . "I've been enabled!");
 	}
 
